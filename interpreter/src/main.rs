@@ -1,6 +1,7 @@
 #[derive(Copy,Clone)]
 enum Primitive {
     Add,
+    Subtract,
     Multiply,
     Subtract,
     Number(i32)
